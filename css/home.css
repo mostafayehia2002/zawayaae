@@ -23,19 +23,6 @@ a {
     text-decoration: none;
 }
 
-/* .btn-top {
-    height: 50px;
-    width: 50px;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    background-color: var(--main-color);
-    color: #ffffff;
-    text-align: center;
-    line-height: 50px;
-    border-radius: 3px;
-    z-index: 3000;
-} */
 
 
 /* start header style*/
@@ -43,6 +30,7 @@ a {
     width: 100%;
     height: 100vh;
     background-image: url("../img/b20.jpg");
+    object-fit: cover;
 }
 
 /**************end navbar mobile style****************/
@@ -732,4 +720,10 @@ width: 8%;
     height: 100%;
     object-fit: cover;
     border-radius: 6px;
+}
+
+@media (max-width:767px) {
+    .callback .container .image{
+width:100%;
+    }
 }

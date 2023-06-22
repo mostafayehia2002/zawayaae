@@ -113,7 +113,7 @@ color:var(--fontColor);
         background-color:var(--backgroundColor);
     }
     .navbar .logo{
-        width: 50%;
+        width: 20%;
         margin-left: 20px;
     }
     .navbar .list{
