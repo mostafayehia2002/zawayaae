@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/navbar&footer.css">
+        <title>News & Events</title>
+    </head>
+<body>
+    <script>
+        function actionToggle() {
+          let action = document.querySelector('.contact-action');
+          action.classList.toggle('open');
+          }
+          </script>
+     <!-- start contact-action  -->
+     <div class="contact-action">
+        <div class="item" onclick="actionToggle();">
+          <i class="fa fa-list-alt" aria-hidden="true"></i>
+          <p style="line-height:12pt;"> Get a Quick Quote</p>
+        </div>
+        
+        <span class="item">  <a href=""><i class="fa-solid fa-envelope"></i></a> Email </span>
+        <span class="item"><a href=""><i class="fa-solid fa-phone"></i></a>Connect</span>
+        <span class="item"> <a href=""><i class="fa-solid fa-paper-plane"></i></a>Contact</span>
+      </div>
+      
+<!-- end contact-action -->
+    <header class="main-header">
+        <nav class="navbar">
+            <div class="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <ul class="list">
+                <div class="list-logo">
+                    <img src="img/logo.png" alt="">
+                    <button id="close" class="mobile">X</button>
+                </div>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+                <li class="servise">
+                    Services
+                    <span class="fa-solid fa-caret-down"></span>
+                    <ul class="servise-list">
+                        <li>
+                            <a href="skirting.html">Skirting &amp; Trim</a>
+                        </li>
+                        <li>
+                            <a href="canopy.html">Canopy &amp; Shade</a>
+                        </li>
+                        <li>
+                            <a href="pergola.html">Pergola</a>
+                        </li>
+                        <li>
+                            <a href="handrail.html">Handrail</a>
+                        </li>
+                        <li>
+                            <a href="mashrabiya.html">Mashrabiya</a>
+                        </li>
+                        <li>
+                            <a href="cladding.html">Cladding</a>
+                        </li>
+                        <li>
+                            <a href="staircase.html">Staircase</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="projects.html">Projects</a>
+                </li>
+                <li>
+                    <a href="clients.html">Clients</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <div class="main-menu-social">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                   
+               
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                    
+                
+              
+                <a href="#"><i class="fab fa-instagram"></i></a>
+             
+                
+                <a href="#"><i class="fab fa-youtube"></i></a>    
+                
+            </div>
+            <div class="search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+               
+            </div>
+        </div>
+        <div class="mobile">
+            <ul class="mobile-list">
+                <li class="menu">
+                    <i class="fa-solid fa-bars"></i>
+                </li>
+            </ul>
+        </div>
+        </nav>
+
+        <div class="cont-img">
+            <div class="img-top">
+            <img src="img/CONTACT_US_01.jpg" alt="">
+            </div>
+        </div>
+
+    </header>
+ <!-- start contact  Section  -->
+ <section  class="contact"> 
+<div class="container">
+<div class="address">
+   <div class="sub-title">
+    <h1>-Contact</h1>
+    </div>
+    <div class="sub-address">
+        <i class="fa-solid fa-location-dot"></i>
+        <p>ZAYWYA Middle East LLC P.O. Box: 29523,Dubai,UAE</p>
+    </div>
+
+<div class="sub-address">
+    <i class="fa-solid fa-clock"></i> 
+     <p>Mon-Sat: 8.30am - 6.30pm Sunday: Closed </p>
+       
+    </div>
+
+    <div class="sub-address">
+        <i class="fa-solid fa-envelope"></i>
+        <p>  enquiry@amzanme.com</p>
+        
+     </div>
+     
+    <div class="sub-address">
+        <i class="fa-solid fa-phone"></i>
+          <p>+971 4 340 0061 </p>     
+    </div>
+</div>
+
+
+<form action="">
+<div class="form">
+<div class="input-field">
+    <label for="name">*Name</label>
+    <br>
+    <input type="text" placeholder="Name" id="name">
+</div>
+<div class="input-field">
+    <label for="Email">*Email</label>
+    <br>
+    <input type="Email" placeholder="Email" id="Email">
+</div>
+<div class="input-field">
+    <label for="number">*Phone Number</label>
+    <br>
+    <input type="number" placeholder="Phone" id="number">
+</div>
+<div class="input-field">
+    <label for="servise">*Servise</label>
+    <br>
+    <select  id="servise" placeholder="-select-">
+        <option value="">opction1</option>
+        <option value="">option2</option>
+        <option value="">option3</option>
+        <option value="">option4</option>
+        <option value="">option5</option>
+    </select>
+</div>
+<div class="input-field">
+    <label for="message">*Message</label>
+    <br>
+   <textarea name="" id="message">
+message here
+   </textarea>
+</div>
+<div class="input-field  submit">
+  
+    <i class="fa-solid fa-paper-plane"></i>
+    <input type="submit" id="submit" value="">
+</div>
+</div>
+</form>
+</div>
+</section>
+
+<div class="map">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d115596.95246288695!2d55.373769!3d25.122003!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f6438e00cbab9%3A0xda29f4dde5959c3e!2sSUNTECH%20Tower%20-%20Dubai%20Silicon%20Oasis%20-%20Industrial%20Area%20-%20Dubai%20-%20United%20Arab%20Emirates!5e0!3m2!1sen!2sus!4v1687123666424!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+</div>
+ <!-- End  Blogs  Section  -->
+ <footer class="footer">
+    <div class="box">
+      <p class="address">contact</p>
+      <p>address:<span>quesna el menofia egypt</span></p>
+      <p>phone:<span>+(20) 1226717838</span></p>
+      <p>hours:<span>10:00 AM - 12:00 PM mon-sat</span></p>
+      <p class="address">follow us</p>
+      <p>
+         <a href=""> <span class="fa-brands fa-facebook"></span></a>  
+       <a href=""><span class="fa-brands fa-twitter"></span></a>  
+       <a href=""><span class="fa-brands fa-linkedin"></span></a> 
+       <a href=""> <span class="fa-solid fa-phone"></span> </a>
+      </p>
+    </div>
+    <div class="box">
+      <p class="address">about</p>
+      <p><span>about us</span></p>
+      <p><span>delivery information</span></p>
+      <p><span>privacy policy</span></p>
+      <p><span>terms & conditions</span></p>
+      <p><span>contact us</span></p>
+    </div>
+    <div class="box">
+      <p class="address">my account</p>
+      <p><span>sign in</span></p>
+      <p><span>view cart</span></p>
+      <p><span>my wishlist</span></p>
+      <p><span>track my order</span></p>
+      <p><span>help</span></p>
+    </div>
+    
+    <p class="The-end">
+      <span>
+        all right reversed<span class="year"></span
+        >&copy;</span
+      >
+    </p>
+  </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
