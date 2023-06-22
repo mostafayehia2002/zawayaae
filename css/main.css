@@ -270,14 +270,22 @@ section {
 /* End  Projects  Page */
 
 /* Start  Skirting  Page */
-
-.content-skirting {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
-  gap: 19px;
-  margin: 50px 0 20px;
+.skirting{
+width: 100%;
+}
+.skirting .container{
+  width:100%;
 }
 
+.content-skirting {
+  width: 100%;
+display: flex;
+justify-content: center;
+}
+.content-skirting .box{
+  width: 40%;
+  padding:10px;
+}
 .content-skirting .box img {
   width: 100%;
 }
@@ -296,14 +304,15 @@ section {
   margin-bottom: 26px;
 }
 .skirting-imgs {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
-  gap: 15px;
-  margin: 0 0 20px 0;
+  width: 100%;
+  display:flex;
+  justify-content: center;
   
 }
-.skirting-imgs .parent-img {
+.skirting-imgs .parent-img{
+  width: 26%;
   overflow: hidden;
+  padding:10px;
 }
 .skirting-imgs .parent-img img {
   width: 100%;
@@ -319,6 +328,23 @@ section {
   -o-transform: scale(1.1);
 }
 
+@media (max-width:767px) {
+  .content-skirting{
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .content-skirting .box{
+    width: 100%;
+  }
+
+.skirting-imgs{
+  width: 100%;
+  flex-wrap: wrap;
+}
+.skirting-imgs .parent-img{
+  width: 100%;
+}
+}
 /* End  Skirting  Page */
 
 /*start contact us form*/
